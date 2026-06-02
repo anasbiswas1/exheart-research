@@ -1,0 +1,6 @@
+Metric,BRFSS 2015,BRFSS 2020 Transport,BRFSS 2020 Retrained,Cardio
+Sex/Gender TPR gap,0.135,0.208,0.163,0.013
+Age TPR gap,0.89,0.000-0.890,0.837,0.213
+Race TPR gap,N/A,0.113,0.189,N/A
+Female/Female TPR,0.693,0.138,0.637,0.683
+Male TPR,0.828,0.346,0.8,0.696

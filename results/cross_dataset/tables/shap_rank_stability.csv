@@ -1,0 +1,12 @@
+feature,rank_2015,rank_2020
+Age,1,1
+GenHlth,2,2
+Sex,4,3
+Smoker,6,4
+DiffWalk,7,6
+Stroke,8,7
+Diabetes,10,5
+PhysHlth,11,8
+BMI,12,9
+MentHlth,17,14
+PhysActivity,18,17
