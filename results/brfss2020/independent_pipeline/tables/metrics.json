@@ -1,0 +1,19 @@
+{
+  "dataset": "BRFSS_2020_independent",
+  "AUC_ROC": 0.8403,
+  "AUPRC": 0.3524,
+  "Brier": 0.0663,
+  "ECE_pre_calibration": 0.267,
+  "ECE_post_calibration": 0.0122,
+  "Sensitivity_pt012": 0.7319,
+  "Specificity_pt012": 0.7845,
+  "n_test": 63959,
+  "meta_coefs": [
+    [
+      -0.4035994609058951,
+      3.426521072787296,
+      0.7302418941275509,
+      1.5744463901417336
+    ]
+  ]
+}

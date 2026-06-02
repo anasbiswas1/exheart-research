@@ -1,0 +1,17 @@
+{
+  "experiment": "temporal_transport_2015_to_2020",
+  "AUC_ROC": 0.7798,
+  "AUPRC": 0.2274,
+  "Brier": 0.0762,
+  "ECE": 0.0508,
+  "Sensitivity": 0.2606,
+  "Specificity": 0.9328,
+  "n_2020": 319795,
+  "prevalence_2020": 0.0856,
+  "AUC_2015": 0.8505,
+  "ECE_2015": 0.012,
+  "Sensitivity_2015": 0.77,
+  "AUC_drift": -0.0707,
+  "ECE_drift": 0.0388,
+  "Sens_drift": -0.5094
+}
