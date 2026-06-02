@@ -1,10 +1,10 @@
 {
   "AUC-ROC": 0.85,
-  "AUPRC": 0.371,
+  "AUPRC": 0.37,
   "Brier": 0.071,
-  "ECE_pre_calibration": 0.252,
-  "ECE_post_calibration": 0.012,
-  "Sensitivity_pt012": 0.77,
-  "Specificity_pt012": 0.772,
+  "ECE_pre_calibration": 0.256,
+  "ECE_post_calibration": 0.011,
+  "Sensitivity_pt012": 0.776,
+  "Specificity_pt012": 0.769,
   "n_test": 50736
 }

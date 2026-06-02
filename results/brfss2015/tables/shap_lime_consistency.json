@@ -1,18 +1,18 @@
 {
-  "Kendall_tau": 0.743,
+  "Kendall_tau": 0.733,
   "p_kendall": 0.0,
-  "Spearman_rho": 0.895,
+  "Spearman_rho": 0.886,
   "p_spearman": 0.0,
   "Jaccard_top3": 0.5,
   "Jaccard_top5": 0.667,
   "SHAP_top3": [
+    "HighBP",
     "Age",
-    "GenHlth",
-    "HighBP"
+    "GenHlth"
   ],
   "LIME_top3": [
+    "Stroke",
     "Age",
-    "GenHlth",
-    "Stroke"
+    "GenHlth"
   ]
 }
