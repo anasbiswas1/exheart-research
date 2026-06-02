@@ -1,0 +1,21 @@
+{
+  "dataset": "Cardiovascular_Disease",
+  "Kendall_tau": 0.394,
+  "p_kendall": 0.0863,
+  "Spearman_rho": 0.559,
+  "p_spearman": 0.0586,
+  "Jaccard_top3": 1.0,
+  "Jaccard_top5": 0.667,
+  "SHAP_top3": [
+    "cholesterol",
+    "age",
+    "ap_hi"
+  ],
+  "LIME_top3": [
+    "cholesterol",
+    "age",
+    "ap_hi"
+  ],
+  "BRFSS2015_tau": 0.743,
+  "BRFSS2015_Jaccard3": 0.5
+}

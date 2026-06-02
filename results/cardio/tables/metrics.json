@@ -1,0 +1,23 @@
+{
+  "dataset": "Cardiovascular_Disease",
+  "n_test": 13746,
+  "prevalence": 0.4948,
+  "AUC_ROC": 0.8068,
+  "AUPRC": 0.7887,
+  "Brier": 0.1799,
+  "ECE_pre_calibration": 0.0194,
+  "ECE_post_calibration": 0.026,
+  "Sensitivity_pt050": 0.6874,
+  "Specificity_pt050": 0.7864,
+  "Sensitivity_pt012": 1.0,
+  "Specificity_pt012": 0.002,
+  "MLP_standalone_AUC": 0.8047,
+  "meta_coefs": [
+    [
+      1.0049508532464333,
+      0.8597193671373093,
+      1.1137506695340034,
+      1.915111002833414
+    ]
+  ]
+}

@@ -1,0 +1,13 @@
+feature,mean_abs_shap,shap_rank
+ap_hi,0.8483534,1
+age,0.28336647,2
+cholesterol,0.24871722,3
+bmi,0.09004854,4
+ap_lo,0.08615204,5
+weight,0.06243557,6
+active,0.06109099,7
+gluc,0.044919953,8
+height,0.036074217,9
+smoke,0.02471979,10
+alco,0.021072706,11
+gender,0.016292462,12
