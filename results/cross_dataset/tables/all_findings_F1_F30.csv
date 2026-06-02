@@ -1,31 +1,31 @@
 ID,Dataset,Topic,Finding
-F1,BRFSS 2015,Performance,"AUC=0.85, AUPRC=0.371, Brier=0.071. Survey-weighted AUC=0.8599"
-F2,BRFSS 2015,Calibration,ECE 0.252→0.012 (95% reduction via Platt scaling)
+F1,BRFSS 2015,Performance,"AUC=0.85, AUPRC=0.37, Brier=0.071. Survey-weighted AUC=0.8596"
+F2,BRFSS 2015,Calibration,ECE 0.256→0.011 (95% reduction via Platt scaling)
 F3,BRFSS 2015,MLP contribution,"MLP strongest base learner (AUC=0.850), meta-weight 2.998 vs XGB 0.092"
 F4,BRFSS 2015,DCA,Positive net benefit over treat-all/treat-none across threshold range 0.05–0.40
 F5,BRFSS 2015,SHAP ranking,Age (0.764) >> GenHlth (0.497) > HighBP (0.474). GenHlth outranks clinical measurements
-F6,BRFSS 2015,SHAP-LIME,"τ=0.743, ρ=0.895, Jaccard@3=0.5. Stroke rank 8→1"
-F7,BRFSS 2015,Sex fairness,"Female TPR=0.693, Male=0.828, gap=0.135"
+F6,BRFSS 2015,SHAP-LIME,"τ=0.733, ρ=0.886, Jaccard@3=0.5. Stroke rank 8→1"
+F7,BRFSS 2015,Sex fairness,"Female TPR=0.705, Male=0.829, gap=0.124"
 F8,BRFSS 2015,Age fairness,TPR range 0.000–0.890. Young adults completely missed (Age group 2: TPR=0.000)
-F9,BRFSS 2015,Income fairness,"Inverted: low-income TPR=0.872, high-income TPR=0.638. Gap=0.238"
+F9,BRFSS 2015,Income fairness,"Inverted: low-income TPR=0.872, high-income TPR=0.638. Gap=0.23"
 F10,BRFSS 2015,Intersectional,Sex×Age gap=0.972 (6.8× larger than Sex-only). Age×Income gap=0.962
-F11,BRFSS 2015,Mitigation,0.023 Sex TPR gap reduction at 0.0065 AUC cost (smooth Pareto frontier)
-F12,BRFSS 2015,Survey weights,Weighted AUC=0.8599 vs unweighted=0.8505. BRFSS oversamples older adults
-F13,BRFSS 2020,Transport AUC,AUC drops 0.8505→0.7798 (-0.0707) under transport
-F14,BRFSS 2020,Sensitivity collapse,Sensitivity 0.77→0.2606 (-0.509). 74% detection lost
-F15,BRFSS 2020,Calibration drift,ECE 0.012→0.0508 (+0.0388) under transport
-F16,BRFSS 2020,Retraining restores,"AUC=0.8403, ECE=0.0122, Sensitivity=0.7319"
-F17,BRFSS 2020,Fairness amplification,Sex TPR gap 0.135→0.208 under transport
-F18,BRFSS 2020,Race disparities,"Hispanic TPR=0.159 (transport), 0.561 (retrained). Race gap: transport=0.113, retrained=0.189"
-F19,BRFSS 2020,Race feature amplifies,Retraining with race feature worsens race gap (0.113→0.189)
+F11,BRFSS 2015,Mitigation,0.016 Sex TPR gap reduction at 0.0066 AUC cost (smooth Pareto frontier)
+F12,BRFSS 2015,Survey weights,Weighted AUC=0.8596 vs unweighted=0.8502. BRFSS oversamples older adults
+F13,BRFSS 2020,Transport AUC,AUC drops 0.8505→0.7814 (-0.0691) under transport
+F14,BRFSS 2020,Sensitivity collapse,Sensitivity 0.77→0.2674 (-0.503). 74% detection lost
+F15,BRFSS 2020,Calibration drift,ECE 0.012→0.0503 (+0.0383) under transport
+F16,BRFSS 2020,Retraining restores,"AUC=0.8403, ECE=0.012, Sensitivity=0.7313"
+F17,BRFSS 2020,Fairness amplification,Sex TPR gap 0.124→0.22 under transport
+F18,BRFSS 2020,Race disparities,"Hispanic TPR=0.159 (transport), 0.561 (retrained). Race gap: transport=0.117, retrained=0.206"
+F19,BRFSS 2020,Race feature amplifies,Retraining with race feature worsens race gap (0.117→0.206)
 F20,BRFSS 2020,SHAP stability,"Age rank 1, GenHealth rank 2 in both 2015 and 2020. Age SHAP increases 0.764→0.981"
 F21,BRFSS 2020,Meta-learner shift,XGB negative coef in 2020 (−0.404). LGBM dominant (3.427). Dataset-dependent weighting
 F22,BRFSS 2020,Young adult failure,"Age groups 1–3: TPR 0.000–0.230 in 2020. Systemic property, not 2015 artefact"
-F23,Cardio,AUC cross-domain,AUC=0.8068 on clinical vs 0.850 BRFSS. Survey data gives higher AUC (extreme cases)
-F24,Cardio,ECE paradox,Pre-calib ECE=0.0194 already near-perfect. Platt worsens to 0.026
+F23,Cardio,AUC cross-domain,AUC=0.8067 on clinical vs 0.850 BRFSS. Survey data gives higher AUC (extreme cases)
+F24,Cardio,ECE paradox,Pre-calib ECE=0.0177 already near-perfect. Platt worsens to 0.0267
 F25,Cardio,ap_hi dominates,Systolic BP rank 1 on clinical (SHAP=0.848) vs binary HighBP rank 3 on BRFSS (0.474)
-F26,Cardio,SHAP-LIME inversion,"τ=0.394 (p=0.087, not significant) but Jaccard@3=1.000. Cross-domain inversion vs BRFSS"
-F27,Cardio,Gender gap collapses,Gender TPR gap=0.013 on clinical vs 0.135 BRFSS. Survey artefact confirmed
-F28,Cardio,Age gap smaller,Age TPR gap=0.213 on clinical vs 0.890 BRFSS. No young/elderly in Cardio
+F26,Cardio,SHAP-LIME inversion,"τ=0.455 (p=0.087, not significant) but Jaccard@3=1.000. Cross-domain inversion vs BRFSS"
+F27,Cardio,Gender gap collapses,Gender TPR gap=0.014 on clinical vs 0.124 BRFSS. Survey artefact confirmed
+F28,Cardio,Age gap smaller,Age TPR gap=0.21 on clinical vs 0.890 BRFSS. No young/elderly in Cardio
 F29,Cardio,BMI portability,BMI rank 12→4. Measured BMI 8 ranks more important than self-reported
 F30,Cardio,Sex portability,Gender rank 4→12. Clinical measurements make gender redundant as predictor
