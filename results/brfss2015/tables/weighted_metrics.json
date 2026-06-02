@@ -1,0 +1,6 @@
+{
+  "AUC_unweighted": 0.8505,
+  "AUC_weighted": 0.8599,
+  "Brier_unweighted": 0.0706,
+  "Brier_weighted": 0.063
+}
