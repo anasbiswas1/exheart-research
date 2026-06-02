@@ -2,22 +2,22 @@
   "dataset": "Cardiovascular_Disease",
   "n_test": 13746,
   "prevalence": 0.4948,
-  "AUC_ROC": 0.8068,
-  "AUPRC": 0.7887,
-  "Brier": 0.1799,
-  "ECE_pre_calibration": 0.0194,
-  "ECE_post_calibration": 0.026,
-  "Sensitivity_pt050": 0.6874,
-  "Specificity_pt050": 0.7864,
-  "Sensitivity_pt012": 1.0,
-  "Specificity_pt012": 0.002,
+  "AUC_ROC": 0.8067,
+  "AUPRC": 0.7881,
+  "Brier": 0.18,
+  "ECE_pre_calibration": 0.0177,
+  "ECE_post_calibration": 0.0267,
+  "Sensitivity_pt050": 0.6869,
+  "Specificity_pt050": 0.7849,
+  "Sensitivity_pt012": 0.9999,
+  "Specificity_pt012": 0.0042,
   "MLP_standalone_AUC": 0.8047,
   "meta_coefs": [
     [
-      1.0049508532464333,
-      0.8597193671373093,
-      1.1137506695340034,
-      1.915111002833414
+      0.9853159751069599,
+      0.859219262262433,
+      1.1502696651754722,
+      1.8727463820920018
     ]
   ]
 }
