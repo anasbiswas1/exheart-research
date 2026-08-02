@@ -1,0 +1,107 @@
+{
+  "shap_reference": "mean|SHAP| on XGBoost, 2000 instances",
+  "grid": [
+    {
+      "lime_discretize": "discretize=True",
+      "lime_aggregation": "mean_abs",
+      "kendall_tau": 0.5798,
+      "spearman": 0.8169,
+      "jaccard_top3": 0.2,
+      "lime_top3": [
+        "Stroke",
+        "HighBP",
+        "DiffWalk"
+      ]
+    },
+    {
+      "lime_discretize": "discretize=True",
+      "lime_aggregation": "abs_mean",
+      "kendall_tau": 0.2802,
+      "spearman": 0.4208,
+      "jaccard_top3": 0.0,
+      "lime_top3": [
+        "Stroke",
+        "DiffWalk",
+        "HvyAlcoholConsump"
+      ]
+    },
+    {
+      "lime_discretize": "discretize=True",
+      "lime_aggregation": "mean_signed",
+      "kendall_tau": -0.1739,
+      "spearman": -0.2906,
+      "jaccard_top3": 0.2,
+      "lime_top3": [
+        "HvyAlcoholConsump",
+        "HighBP",
+        "Income"
+      ]
+    },
+    {
+      "lime_discretize": "discretize=False",
+      "lime_aggregation": "mean_abs",
+      "kendall_tau": 0.5524,
+      "spearman": 0.6844,
+      "jaccard_top3": 1.0,
+      "lime_top3": [
+        "Age",
+        "GenHlth",
+        "HighBP"
+      ]
+    },
+    {
+      "lime_discretize": "discretize=False",
+      "lime_aggregation": "abs_mean",
+      "kendall_tau": 0.5333,
+      "spearman": 0.6519,
+      "jaccard_top3": 1.0,
+      "lime_top3": [
+        "Age",
+        "GenHlth",
+        "HighBP"
+      ]
+    },
+    {
+      "lime_discretize": "discretize=False",
+      "lime_aggregation": "mean_signed",
+      "kendall_tau": 0.5238,
+      "spearman": 0.6416,
+      "jaccard_top3": 1.0,
+      "lime_top3": [
+        "Age",
+        "GenHlth",
+        "HighBP"
+      ]
+    }
+  ],
+  "closest_to_published": {
+    "discretize": "discretize=True",
+    "aggregation": "mean_abs",
+    "tau": 0.5798,
+    "lime_top3": [
+      "Stroke",
+      "HighBP",
+      "DiffWalk"
+    ],
+    "fingerprint_overlap": 3
+  },
+  "seed_stability_meanabs_disc_true": {
+    "seeds": [
+      42,
+      1,
+      7,
+      123,
+      2024
+    ],
+    "taus": [
+      0.5798,
+      0.5798,
+      0.5798,
+      0.5894,
+      0.5798
+    ],
+    "mean": 0.5817,
+    "sd": 0.0038
+  },
+  "recommended_config": "SHAP mean|shap| vs LIME mean|w| (magnitude-matched), discretize_continuous fixed and disclosed"
+}

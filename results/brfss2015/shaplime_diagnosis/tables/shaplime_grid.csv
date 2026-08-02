@@ -1,0 +1,7 @@
+lime_discretize,lime_aggregation,kendall_tau,spearman,jaccard_top3,lime_top3
+discretize=True,mean_abs,0.5798,0.8169,0.2,"['Stroke', 'HighBP', 'DiffWalk']"
+discretize=True,abs_mean,0.2802,0.4208,0.0,"['Stroke', 'DiffWalk', 'HvyAlcoholConsump']"
+discretize=True,mean_signed,-0.1739,-0.2906,0.2,"['HvyAlcoholConsump', 'HighBP', 'Income']"
+discretize=False,mean_abs,0.5524,0.6844,1.0,"['Age', 'GenHlth', 'HighBP']"
+discretize=False,abs_mean,0.5333,0.6519,1.0,"['Age', 'GenHlth', 'HighBP']"
+discretize=False,mean_signed,0.5238,0.6416,1.0,"['Age', 'GenHlth', 'HighBP']"
