@@ -1,0 +1,31 @@
+{
+  "experiment": "shared_feature_harmonized_transport",
+  "n_shared_features": 11,
+  "imputed_features": 0,
+  "harmonized": [
+    "GenHlth->severity1-5",
+    "Diabetes->binary"
+  ],
+  "operating_threshold": 0.12,
+  "baseline_2015_test": {
+    "AUC": 0.8381,
+    "AUPRC": 0.352,
+    "Brier": 0.0724,
+    "ECE": 0.0099,
+    "Sensitivity": 0.6328,
+    "Specificity": 0.8397,
+    "selection_rate": 0.2048
+  },
+  "transport_2020": {
+    "AUC": 0.8403,
+    "AUPRC": 0.3395,
+    "Brier": 0.0667,
+    "ECE": 0.0084,
+    "Sensitivity": 0.6105,
+    "Specificity": 0.855,
+    "selection_rate": 0.1848
+  },
+  "sensitivity_drop_clean": 0.0223,
+  "sensitivity_drop_paper_confounded": 0.509,
+  "drop_attributable_to_featuremismatch_and_encoding": 0.4867
+}
