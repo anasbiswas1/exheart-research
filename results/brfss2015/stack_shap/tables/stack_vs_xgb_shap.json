@@ -1,0 +1,24 @@
+{
+  "kendall_tau_stack_vs_xgb": 0.8095,
+  "tau_p": 0.0,
+  "spearman_rho": 0.9403,
+  "jaccard_top3": 0.5,
+  "jaccard_top5": 1.0,
+  "stack_top5": [
+    "Age",
+    "GenHlth",
+    "HighChol",
+    "Sex",
+    "HighBP"
+  ],
+  "xgb_top5": [
+    "Age",
+    "GenHlth",
+    "HighBP",
+    "Sex",
+    "HighChol"
+  ],
+  "n_explain": 200,
+  "background_k": 50,
+  "nsamples": 500
+}
