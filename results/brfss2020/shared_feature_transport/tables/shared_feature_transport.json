@@ -27,5 +27,31 @@
   },
   "sensitivity_drop_clean": 0.0223,
   "sensitivity_drop_paper_confounded": 0.509,
-  "drop_attributable_to_featuremismatch_and_encoding": 0.4867
+  "drop_attributable_to_featuremismatch_and_encoding": 0.4867,
+  "transport_2020_scrambled_encoding": {
+    "AUC": 0.7713,
+    "AUPRC": 0.2236,
+    "Brier": 0.0746,
+    "ECE": 0.0245,
+    "Sensitivity": 0.489,
+    "Specificity": 0.8252,
+    "selection_rate": 0.2016
+  },
+  "encoding_only_sensitivity_effect": 0.1215,
+  "drift_bootstrap_ci": {
+    "drift_sensitivity_mean": 0.0249,
+    "ci_low": 0.01,
+    "ci_high": 0.0401,
+    "sens2015_ci": [
+      0.633,
+      0.6193,
+      0.6464
+    ],
+    "sens2020_ci": [
+      0.6081,
+      0.6019,
+      0.614
+    ],
+    "B": 1000
+  }
 }

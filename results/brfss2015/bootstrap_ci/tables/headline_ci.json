@@ -1,0 +1,38 @@
+[
+  {
+    "metric": "AUC",
+    "mean": 0.8503,
+    "ci_low": 0.8451,
+    "ci_high": 0.8552
+  },
+  {
+    "metric": "AUPRC",
+    "mean": 0.3702,
+    "ci_low": 0.3561,
+    "ci_high": 0.3839
+  },
+  {
+    "metric": "Brier",
+    "mean": 0.0706,
+    "ci_low": 0.069,
+    "ci_high": 0.072
+  },
+  {
+    "metric": "ECE",
+    "mean": 0.0112,
+    "ci_low": 0.0088,
+    "ci_high": 0.0135
+  },
+  {
+    "metric": "Sensitivity",
+    "mean": 0.7762,
+    "ci_low": 0.7646,
+    "ci_high": 0.7878
+  },
+  {
+    "metric": "SexTPRgap",
+    "mean": 0.124,
+    "ci_low": 0.1017,
+    "ci_high": 0.1476
+  }
+]
