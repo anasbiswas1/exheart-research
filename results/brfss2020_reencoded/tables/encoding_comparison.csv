@@ -1,0 +1,3 @@
+encoding,AUC,AUPRC,sensitivity,specificity,ECE,Brier,sex_gap,race_gap
+"proper (one-hot race, semantic ordinals)",0.8406,0.3526,0.604,0.861,0.0079,0.0661,0.167,0.218
+naive (LabelEncoder),0.8398,0.3501,0.6049,0.8592,0.0077,0.0662,0.2,0.187

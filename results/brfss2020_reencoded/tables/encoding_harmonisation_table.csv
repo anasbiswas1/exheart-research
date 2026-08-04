@@ -1,0 +1,33 @@
+feature,category,code,encoding
+AgeCategory,18-24,1,ordinal (increasing age)
+AgeCategory,25-29,2,ordinal (increasing age)
+AgeCategory,30-34,3,ordinal (increasing age)
+AgeCategory,35-39,4,ordinal (increasing age)
+AgeCategory,40-44,5,ordinal (increasing age)
+AgeCategory,45-49,6,ordinal (increasing age)
+AgeCategory,50-54,7,ordinal (increasing age)
+AgeCategory,55-59,8,ordinal (increasing age)
+AgeCategory,60-64,9,ordinal (increasing age)
+AgeCategory,65-69,10,ordinal (increasing age)
+AgeCategory,70-74,11,ordinal (increasing age)
+AgeCategory,75-79,12,ordinal (increasing age)
+AgeCategory,80 or older,13,ordinal (increasing age)
+GenHealth,Excellent,1,"ordinal (health scale, Excellent->Poor)"
+GenHealth,Very good,2,"ordinal (health scale, Excellent->Poor)"
+GenHealth,Good,3,"ordinal (health scale, Excellent->Poor)"
+GenHealth,Fair,4,"ordinal (health scale, Excellent->Poor)"
+GenHealth,Poor,5,"ordinal (health scale, Excellent->Poor)"
+Diabetic,No,0,documented binary
+Diabetic,"No, borderline diabetes",0,documented binary
+Diabetic,Yes,1,documented binary
+Diabetic,Yes (during pregnancy),1,documented binary
+Smoking,"No/Female -> 0, Yes/Male -> 1",,verified binary direction
+AlcoholDrinking,"No/Female -> 0, Yes/Male -> 1",,verified binary direction
+Stroke,"No/Female -> 0, Yes/Male -> 1",,verified binary direction
+DiffWalking,"No/Female -> 0, Yes/Male -> 1",,verified binary direction
+PhysicalActivity,"No/Female -> 0, Yes/Male -> 1",,verified binary direction
+Asthma,"No/Female -> 0, Yes/Male -> 1",,verified binary direction
+KidneyDisease,"No/Female -> 0, Yes/Male -> 1",,verified binary direction
+SkinCancer,"No/Female -> 0, Yes/Male -> 1",,verified binary direction
+Sex,"No/Female -> 0, Yes/Male -> 1",,verified binary direction
+Race,each category -> indicator column,,"one-hot (nominal, no valid ordinal)"

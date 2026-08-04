@@ -1,0 +1,23 @@
+,0
+AgeCategory,0.9898254
+GenHealth,0.51358634
+Sex,0.31847835
+Smoking,0.18246059
+Diabetic,0.15006343
+Stroke,0.121237546
+BMI,0.110259905
+DiffWalking,0.09767856
+PhysicalHealth,0.08248675
+Asthma,0.06438949
+KidneyDisease,0.06180185
+SleepTime,0.06039719
+MentalHealth,0.034634992
+Race_White,0.030250754
+AlcoholDrinking,0.018849995
+PhysicalActivity,0.016772943
+Race_Black,0.0155455945
+Race_Asian,0.014287881
+SkinCancer,0.013864308
+Race_Hispanic,0.012722068
+Race_Other,0.00423688
+Race_American Indian/Alaskan Native,0.0029933737
