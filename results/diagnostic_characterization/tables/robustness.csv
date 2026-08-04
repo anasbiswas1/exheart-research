@@ -1,0 +1,13 @@
+factor,value,AUC_meas_vs_subst,AUC_meas_vs_mismatch
+prevalence,0.1,1.0,0.905
+prevalence,0.3,0.999,0.926
+prevalence,0.5,0.96,0.94
+threshold,fixed,0.989,0.916
+threshold,prevmatch,0.999,0.926
+threshold,youden,0.991,0.957
+sample_size,2000,0.997,0.901
+sample_size,6000,0.999,0.926
+sample_size,20000,1.0,0.903
+model,logistic,0.999,0.926
+model,hgb,0.997,0.9
+model,rf,0.992,0.952
