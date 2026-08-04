@@ -1,24 +1,30 @@
 {
-  "measurement_induced": {
-    "ground_truth": "measurement",
-    "frac_removed": 0.944,
+  "measurement": {
+    "frac": 0.932,
     "ci": [
-      0.85,
-      0.998
+      0.82,
+      0.997
     ],
-    "gap_subj": 0.178,
-    "gap_obj": 0.005,
-    "test_verdict": "measurement"
+    "verdict": "measurement"
   },
   "substantive": {
-    "ground_truth": "substantive",
-    "frac_removed": 0.023,
+    "frac": 0.033,
     "ci": [
       0.0,
-      0.139
+      0.166
     ],
-    "gap_subj": 0.124,
-    "gap_obj": 0.129,
-    "test_verdict": "substantive"
+    "verdict": "substantive"
+  },
+  "mixed": {
+    "frac": 0.626,
+    "ci": [
+      0.568,
+      0.684
+    ],
+    "note": "expected intermediate"
+  },
+  "noise_control": {
+    "subjective_gap": 0.018,
+    "note": "expected near-zero: diagnostic not triggered"
   }
 }
