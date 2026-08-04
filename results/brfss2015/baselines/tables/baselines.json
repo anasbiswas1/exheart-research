@@ -1,0 +1,62 @@
+[
+  {
+    "model": "LogReg",
+    "AUC": 0.847,
+    "AUPRC": 0.3629,
+    "ECE_raw": 0.2558,
+    "ECE_platt": 0.0056,
+    "Brier_platt": 0.0706,
+    "Sensitivity_platt": 0.7376,
+    "Specificity_platt": 0.7949
+  },
+  {
+    "model": "XGBoost",
+    "AUC": 0.8488,
+    "AUPRC": 0.369,
+    "ECE_raw": 0.2409,
+    "ECE_platt": 0.012,
+    "Brier_platt": 0.0704,
+    "Sensitivity_platt": 0.7464,
+    "Specificity_platt": 0.7872
+  },
+  {
+    "model": "LightGBM",
+    "AUC": 0.8501,
+    "AUPRC": 0.3719,
+    "ECE_raw": 0.2448,
+    "ECE_platt": 0.0094,
+    "Brier_platt": 0.0702,
+    "Sensitivity_platt": 0.7556,
+    "Specificity_platt": 0.7818
+  },
+  {
+    "model": "RandomForest",
+    "AUC": 0.8459,
+    "AUPRC": 0.3597,
+    "ECE_raw": 0.2553,
+    "ECE_platt": 0.0095,
+    "Brier_platt": 0.0709,
+    "Sensitivity_platt": 0.7345,
+    "Specificity_platt": 0.7918
+  },
+  {
+    "model": "MLP",
+    "AUC": 0.8493,
+    "AUPRC": 0.3671,
+    "ECE_raw": 0.2585,
+    "ECE_platt": 0.007,
+    "Brier_platt": 0.0703,
+    "Sensitivity_platt": 0.7826,
+    "Specificity_platt": 0.7619
+  },
+  {
+    "model": "Stack (EXHEART)",
+    "AUC": 0.8502,
+    "AUPRC": 0.3699,
+    "ECE_raw": 0.2563,
+    "ECE_platt": 0.0123,
+    "Brier_platt": 0.0706,
+    "Sensitivity_platt": 0.7721,
+    "Specificity_platt": 0.7717
+  }
+]
