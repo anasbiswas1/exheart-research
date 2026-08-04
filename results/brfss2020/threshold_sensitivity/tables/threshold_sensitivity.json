@@ -1,0 +1,82 @@
+[
+  {
+    "threshold": 0.05,
+    "naive_2015": 0.8751,
+    "naive_2020": 0.4541,
+    "naive_drop": 0.421,
+    "harm_2015": 0.8374,
+    "harm_2020": 0.8124,
+    "harm_drift": 0.025,
+    "sex_tpr_gap": 0.069
+  },
+  {
+    "threshold": 0.08,
+    "naive_2015": 0.8328,
+    "naive_2020": 0.3531,
+    "naive_drop": 0.4797,
+    "harm_2015": 0.7389,
+    "harm_2020": 0.712,
+    "harm_drift": 0.0269,
+    "sex_tpr_gap": 0.0932
+  },
+  {
+    "threshold": 0.1,
+    "naive_2015": 0.8048,
+    "naive_2020": 0.3085,
+    "naive_drop": 0.4963,
+    "harm_2015": 0.6903,
+    "harm_2020": 0.6649,
+    "harm_drift": 0.0254,
+    "sex_tpr_gap": 0.1158
+  },
+  {
+    "threshold": 0.12,
+    "naive_2015": 0.7759,
+    "naive_2020": 0.2675,
+    "naive_drop": 0.5084,
+    "harm_2015": 0.6326,
+    "harm_2020": 0.6081,
+    "harm_drift": 0.0244,
+    "sex_tpr_gap": 0.1242
+  },
+  {
+    "threshold": 0.15,
+    "naive_2015": 0.7311,
+    "naive_2020": 0.2015,
+    "naive_drop": 0.5296,
+    "harm_2015": 0.5712,
+    "harm_2020": 0.5476,
+    "harm_drift": 0.0237,
+    "sex_tpr_gap": 0.1499
+  },
+  {
+    "threshold": 0.2,
+    "naive_2015": 0.6568,
+    "naive_2020": 0.1412,
+    "naive_drop": 0.5156,
+    "harm_2015": 0.4811,
+    "harm_2020": 0.4626,
+    "harm_drift": 0.0185,
+    "sex_tpr_gap": 0.1787
+  },
+  {
+    "threshold": 0.25,
+    "naive_2015": 0.5602,
+    "naive_2020": 0.0861,
+    "naive_drop": 0.474,
+    "harm_2015": 0.4049,
+    "harm_2020": 0.3966,
+    "harm_drift": 0.0083,
+    "sex_tpr_gap": 0.1733
+  },
+  {
+    "threshold": 0.3,
+    "naive_2015": 0.4409,
+    "naive_2020": 0.0425,
+    "naive_drop": 0.3984,
+    "harm_2015": 0.3446,
+    "harm_2020": 0.3323,
+    "harm_drift": 0.0124,
+    "sex_tpr_gap": 0.183
+  }
+]
