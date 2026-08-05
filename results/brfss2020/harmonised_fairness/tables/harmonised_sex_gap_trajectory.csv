@@ -1,0 +1,5 @@
+condition,model,sex_gap,ci_low,ci_high,note
+"2015 full model (reference, pt=0.12)",21-feature,0.124,,,fairness_sex.csv (0.705 vs 0.829)
+2015 harmonised,11-feature,0.197,0.169,0.222,this notebook
+2020 harmonised transport,11-feature (frozen),0.201,0.189,0.213,VALID temporal comparison
+"2020 naive transport (artefact, excluded)","21-feature (frozen,10 imp.)",0.22,,,fairness_sex_transport.csv (collapsed sens 0.267)

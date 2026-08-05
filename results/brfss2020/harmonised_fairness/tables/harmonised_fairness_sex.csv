@@ -1,0 +1,5 @@
+wave,group,n,prevalence,TPR,FPR,PPV,NPV,selection_rate,Brier,ECE
+2015 harmonised,Female,28300,0.072,0.52,0.107,0.276,0.96,0.137,0.0579,0.0062
+2015 harmonised,Male,22436,0.122,0.717,0.232,0.3,0.951,0.291,0.0897,0.013
+2020 harmonised transport,Female,167805,0.067,0.492,0.097,0.267,0.961,0.124,0.0546,0.0075
+2020 harmonised transport,Male,151990,0.106,0.693,0.2,0.291,0.956,0.253,0.0795,0.0118
