@@ -1,0 +1,7 @@
+target,instrument,auc,prevalence,tpr_female,tpr_male,sex_gap,ci_low,ci_high
+composite,self_report,0.8243,0.5346,0.6905,0.71,0.0194,-0.0311,0.0626
+composite,objective,0.733,0.4849,0.6778,0.7216,0.0438,-0.0142,0.0933
+composite,CHANGE(obj-sr),,,,,0.0244,-0.0291,0.0736
+hypertension,self_report,0.8114,0.3698,0.7411,0.6599,-0.0812,-0.1421,-0.0254
+hypertension,objective,0.7104,0.4193,0.7039,0.6974,-0.0064,-0.0697,0.0469
+hypertension,CHANGE(obj-sr),,,,,0.0748,0.0011,0.1439

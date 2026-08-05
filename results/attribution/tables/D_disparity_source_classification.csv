@@ -1,0 +1,7 @@
+Source,Operational test,Signature,Evidence (this study),Remedy
+Temporal,Apply frozen model to a later survey wave (transport); measure metric drift,AUC partly preserved but sensitivity collapses,Sensitivity 0.770 -> 0.261 under 2015->2020 transport,Periodic retraining / drift alarm
+Threshold,Vary operating threshold; observe gap direction vs subgroup prevalence,Gap reverses or vanishes at a different threshold,"Income gap 0.234, inverted gradient (low-income TPR 0.872 > high 0.638)",Group-specific thresholds
+Cohort,"Restrict to the overlapping subpopulation, then recompare",Gap narrows only because extreme groups are excluded,"Age gap 0.890 (BRFSS) vs 0.213 (Cardio, no <30/>65)",Report cohort restriction; not a fix
+Feature,Add/remove the attribute as a feature; compare the gap,Including the attribute amplifies the gap via correlations,Race gap 0.113 (excluded) -> 0.189 (included),Fairness-constrained training
+Instrument,Cross-instrument attribution: re-validate on objective-measurement data (NB05 A-C),Gap collapses AND responsible feature attribution collapses,"Sex gap 0.112 (survey, age-matched) -> 0.012 (clinical); Sex SHAP rank 4 -> 12",Instrument redesign / instrument-aware deployment
+Robust structural,"Gap survives temporal, threshold, cohort, feature AND instrument tests",Persists across every manipulation,Age gap persists across all datasets and the age-matched + binarized tests,Substantive mitigation required

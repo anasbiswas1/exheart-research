@@ -1,0 +1,4 @@
+arm,race_gap,ci_low,ci_high
+with_race,0.195,,
+without_race,0.1426,,
+difference,0.0524,0.0012,0.1395
