@@ -1,0 +1,11 @@
+metric,value
+dif_uniform_OR_male,1.0505
+dif_uniform_p,0.3650544122311219
+dif_nonuniform_p,0.007879020059975875
+sens_sex_diff_p,5.903441061051945e-06
+gap_ratio_sr_over_obj,2.261
+evalue,3.949
+
+sex,sensitivity,specificity,n_true_pos,n_true_neg
+Female,0.5802,0.7711,1572,2438
+Male,0.5014,0.7298,1781,2143
