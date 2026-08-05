@@ -1,0 +1,11 @@
+construct,seed,gap_objective,gap_injected,gap_self_report
+cholesterol,0,-0.1735,0.4967,0.3265
+cholesterol,13,-0.0103,0.3385,0.4043
+cholesterol,42,-0.2107,0.3391,0.2641
+cholesterol,101,-0.2121,0.253,0.3215
+cholesterol,202,-0.3002,0.4743,0.3242
+hypertension,0,0.0567,0.5081,0.2747
+hypertension,13,0.0083,0.4374,0.2177
+hypertension,42,0.0562,0.2657,0.2346
+hypertension,101,0.0901,0.4458,0.2161
+hypertension,202,0.0232,0.5544,0.2166
