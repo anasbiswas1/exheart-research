@@ -1,0 +1,22 @@
+{
+  "arm": "BRFSS 2015 (development)",
+  "threshold": 0.12,
+  "ECE_pre_calibration": 0.259,
+  "published_leaky": {
+    "AUC": 0.85,
+    "AUPRC": 0.37,
+    "Brier": 0.071,
+    "ECE": 0.011,
+    "Sens": 0.777,
+    "Spec": 0.768
+  },
+  "leakage_free": {
+    "AUC": 0.85,
+    "AUPRC": 0.37,
+    "Brier": 0.071,
+    "ECE": 0.011,
+    "Sens": 0.788,
+    "Spec": 0.758
+  },
+  "calibration": "out-of-fold cross-fitting"
+}

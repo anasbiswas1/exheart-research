@@ -1,0 +1,22 @@
+{
+  "arm": "Clinical (cardio)",
+  "threshold": 0.5,
+  "ECE_pre_calibration": 0.018,
+  "published_leaky": {
+    "AUC": 0.807,
+    "AUPRC": 0.789,
+    "Brier": 0.18,
+    "ECE": 0.025,
+    "Sens": 0.688,
+    "Spec": 0.784
+  },
+  "leakage_free": {
+    "AUC": 0.807,
+    "AUPRC": 0.789,
+    "Brier": 0.18,
+    "ECE": 0.028,
+    "Sens": 0.688,
+    "Spec": 0.785
+  },
+  "calibration": "out-of-fold cross-fitting"
+}

@@ -1,0 +1,22 @@
+{
+  "arm": "BRFSS 2020 (retrained)",
+  "threshold": 0.12,
+  "ECE_pre_calibration": 0.267,
+  "published_leaky": {
+    "AUC": 0.84,
+    "AUPRC": 0.353,
+    "Brier": 0.066,
+    "ECE": 0.012,
+    "Sens": 0.728,
+    "Spec": 0.786
+  },
+  "leakage_free": {
+    "AUC": 0.84,
+    "AUPRC": 0.353,
+    "Brier": 0.066,
+    "ECE": 0.011,
+    "Sens": 0.732,
+    "Spec": 0.783
+  },
+  "calibration": "out-of-fold cross-fitting"
+}
