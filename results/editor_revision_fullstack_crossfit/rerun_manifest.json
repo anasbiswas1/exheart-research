@@ -1,0 +1,22 @@
+{
+  "notebook": "EXHEART_07_full_stack_crossfitted_calibration.ipynb",
+  "method": "two-stage full-stack cross-fitting: base OOF -> meta OOF -> Platt",
+  "seed": 42,
+  "base_folds": 5,
+  "meta_folds": 5,
+  "test_fraction": 0.2,
+  "full_run": true,
+  "fast_smoke_test": false,
+  "output_files": [
+    "brfss2015_shared_test_predictions.csv",
+    "brfss2015_test_predictions.csv",
+    "brfss2020_shared_transport_predictions.csv",
+    "brfss2020_test_predictions.csv",
+    "brfss2020_transport_predictions.csv",
+    "cardio_test_predictions.csv",
+    "editor_revision_metrics.json",
+    "figures",
+    "file_provenance.json",
+    "manuscript_update_map.json"
+  ]
+}

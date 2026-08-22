@@ -1,0 +1,17 @@
+{
+  "BRFSS2015": {
+    "file": "heart_disease_health_indicators_BRFSS2015.csv",
+    "md5": "1044a4d01830fd9df016eb0d68f627b1",
+    "sha256": "953fb23bb131736d7879539a071d3f6d1eaae8d4867ab05335d0ba89b94d5f99"
+  },
+  "BRFSS2020": {
+    "file": "heart_2020_cleaned.csv",
+    "md5": "f5a885ff39a113e797af67367b6bc2cf",
+    "sha256": "eb1bfd667d199d19380119491d41d3f30b9868a8b1fa7c5bed12c3f048de5d49"
+  },
+  "Cardio": {
+    "file": "cardio_train.csv",
+    "md5": "71c46a70f7ba9e3e4736ae73ecd5bac9",
+    "sha256": "21a705d23381b0dfd6a6416da701b490744f1fc3b47e9ff3db3968c420ffa10c"
+  }
+}

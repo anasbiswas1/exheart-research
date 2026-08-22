@@ -1,0 +1,1007 @@
+{
+  "method": "two-stage full-stack cross-fitting: base OOF -> meta OOF -> Platt",
+  "BRFSS2015": {
+    "AUC": 0.8502,
+    "AUPRC": 0.3707,
+    "Brier": 0.0707,
+    "ECE": 0.0114,
+    "Sensitivity": 0.7824,
+    "Specificity": 0.7634,
+    "FPR": 0.2366,
+    "PPV": 0.2559,
+    "NPV": 0.9712,
+    "SelectionRate": 0.288,
+    "BalancedAccuracy": 0.7729,
+    "TN": 35083,
+    "FP": 10874,
+    "FN": 1040,
+    "TP": 3739,
+    "threshold": 0.12
+  },
+  "BRFSS2015_raw": {
+    "AUC": 0.8502,
+    "AUPRC": 0.3707,
+    "Brier": 0.1688,
+    "ECE": 0.2555,
+    "Sensitivity": 0.973,
+    "Specificity": 0.391,
+    "FPR": 0.609,
+    "PPV": 0.1425,
+    "NPV": 0.9929,
+    "SelectionRate": 0.6433,
+    "BalancedAccuracy": 0.682,
+    "TN": 17970,
+    "FP": 27987,
+    "FN": 129,
+    "TP": 4650,
+    "threshold": 0.12
+  },
+  "BRFSS2020_retrained": {
+    "AUC": 0.8409,
+    "AUPRC": 0.3541,
+    "Brier": 0.0661,
+    "ECE": 0.0117,
+    "Sensitivity": 0.7359,
+    "Specificity": 0.783,
+    "FPR": 0.217,
+    "PPV": 0.2409,
+    "NPV": 0.9694,
+    "SelectionRate": 0.2614,
+    "BalancedAccuracy": 0.7594,
+    "TN": 45791,
+    "FP": 12693,
+    "FN": 1446,
+    "TP": 4029,
+    "threshold": 0.12
+  },
+  "BRFSS2020_retrained_raw": {
+    "AUC": 0.8409,
+    "AUPRC": 0.3541,
+    "Brier": 0.1653,
+    "ECE": 0.2592,
+    "Sensitivity": 0.97,
+    "Specificity": 0.3702,
+    "FPR": 0.6298,
+    "PPV": 0.126,
+    "NPV": 0.9925,
+    "SelectionRate": 0.6589,
+    "BalancedAccuracy": 0.6701,
+    "TN": 21651,
+    "FP": 36833,
+    "FN": 164,
+    "TP": 5311,
+    "threshold": 0.12
+  },
+  "Cardio": {
+    "AUC": 0.8068,
+    "AUPRC": 0.7882,
+    "Brier": 0.1797,
+    "ECE": 0.0293,
+    "Sensitivity": 0.6845,
+    "Specificity": 0.7874,
+    "FPR": 0.2126,
+    "PPV": 0.7593,
+    "NPV": 0.7182,
+    "SelectionRate": 0.4461,
+    "BalancedAccuracy": 0.736,
+    "TN": 5468,
+    "FP": 1476,
+    "FN": 2146,
+    "TP": 4656,
+    "threshold": 0.5
+  },
+  "Cardio_raw": {
+    "AUC": 0.8068,
+    "AUPRC": 0.7882,
+    "Brier": 0.1789,
+    "ECE": 0.0182,
+    "Sensitivity": 0.6844,
+    "Specificity": 0.7876,
+    "FPR": 0.2124,
+    "PPV": 0.7594,
+    "NPV": 0.7181,
+    "SelectionRate": 0.4459,
+    "BalancedAccuracy": 0.736,
+    "TN": 5469,
+    "FP": 1475,
+    "FN": 2147,
+    "TP": 4655,
+    "threshold": 0.5
+  },
+  "BRFSS2020_naive_transport": {
+    "AUC": 0.8393,
+    "AUPRC": 0.3354,
+    "Brier": 0.0685,
+    "ECE": 0.0331,
+    "Sensitivity": 0.5208,
+    "Specificity": 0.8915,
+    "FPR": 0.1085,
+    "PPV": 0.3099,
+    "NPV": 0.9521,
+    "SelectionRate": 0.1438,
+    "BalancedAccuracy": 0.7061,
+    "TN": 260680,
+    "FP": 31742,
+    "FN": 13116,
+    "TP": 14257,
+    "threshold": 0.12
+  },
+  "BRFSS2015_shared": {
+    "AUC": 0.8385,
+    "AUPRC": 0.3514,
+    "Brier": 0.072,
+    "ECE": 0.0107,
+    "Sensitivity": 0.7679,
+    "Specificity": 0.7551,
+    "FPR": 0.2449,
+    "PPV": 0.2459,
+    "NPV": 0.969,
+    "SelectionRate": 0.2942,
+    "BalancedAccuracy": 0.7615,
+    "TN": 34700,
+    "FP": 11257,
+    "FN": 1109,
+    "TP": 3670,
+    "threshold": 0.12
+  },
+  "BRFSS2020_shared_transport": {
+    "AUC": 0.8405,
+    "AUPRC": 0.3399,
+    "Brier": 0.0665,
+    "ECE": 0.0124,
+    "Sensitivity": 0.7433,
+    "Specificity": 0.7775,
+    "FPR": 0.2225,
+    "PPV": 0.2382,
+    "NPV": 0.97,
+    "SelectionRate": 0.2671,
+    "BalancedAccuracy": 0.7604,
+    "TN": 227344,
+    "FP": 65078,
+    "FN": 7028,
+    "TP": 20345,
+    "threshold": 0.12
+  },
+  "BRFSS2020_shared_scrambled": {
+    "AUC": 0.7671,
+    "AUPRC": 0.2142,
+    "Brier": 0.0742,
+    "ECE": 0.0269,
+    "Sensitivity": 0.6081,
+    "Specificity": 0.758,
+    "FPR": 0.242,
+    "PPV": 0.1904,
+    "NPV": 0.9538,
+    "SelectionRate": 0.2734,
+    "BalancedAccuracy": 0.683,
+    "TN": 221646,
+    "FP": 70776,
+    "FN": 10728,
+    "TP": 16645,
+    "threshold": 0.12
+  },
+  "shared_sensitivity_difference": 0.0247,
+  "shared_sensitivity_difference_CI95": [
+    0.0112,
+    0.0378
+  ],
+  "BRFSS2015_sex_fairness": {
+    "groups": {
+      "0": {
+        "Sensitivity": 0.711847879083374,
+        "Specificity": 0.8172501809592746,
+        "FPR": 0.18274981904072535,
+        "PPV": 0.233338660700016,
+        "NPV": 0.9731887674091548,
+        "SelectionRate": 0.22109540636042402,
+        "Brier": 0.057156086786285254,
+        "ECE": 0.009582048269936897
+      },
+      "1": {
+        "Sensitivity": 0.8354105571847508,
+        "Specificity": 0.6916480617008322,
+        "FPR": 0.30835193829916785,
+        "PPV": 0.27273815222594544,
+        "NPV": 0.9681107954545455,
+        "SelectionRate": 0.3724371545730077,
+        "Brier": 0.08770964995637939,
+        "ECE": 0.013611093256185114
+      }
+    },
+    "TPR_gap": 0.12356267810137678
+  },
+  "BRFSS2015_age_fairness": {
+    "gap": 0.9095238095238095,
+    "groups": [
+      {
+        "group": "11.0",
+        "n": 4650,
+        "positives": 760,
+        "TPR": 0.8671052631578947,
+        "selection_rate": 0.550752688172043
+      },
+      {
+        "group": "6.0",
+        "n": 4024,
+        "positives": 155,
+        "TPR": 0.4645161290322581,
+        "selection_rate": 0.08026838966202783
+      },
+      {
+        "group": "12.0",
+        "n": 3156,
+        "positives": 608,
+        "TPR": 0.8848684210526315,
+        "selection_rate": 0.6444866920152091
+      },
+      {
+        "group": "9.0",
+        "n": 6606,
+        "positives": 659,
+        "TPR": 0.7526555386949925,
+        "selection_rate": 0.30881017257039056
+      },
+      {
+        "group": "1.0",
+        "n": 1123,
+        "positives": 7,
+        "TPR": 0.14285714285714285,
+        "selection_rate": 0.0017809439002671415
+      },
+      {
+        "group": "10.0",
+        "n": 6399,
+        "positives": 853,
+        "TPR": 0.8089097303634232,
+        "selection_rate": 0.4358493514611658
+      },
+      {
+        "group": "8.0",
+        "n": 6262,
+        "positives": 453,
+        "TPR": 0.695364238410596,
+        "selection_rate": 0.2114340466304695
+      },
+      {
+        "group": "13.0",
+        "n": 3458,
+        "positives": 840,
+        "TPR": 0.9095238095238095,
+        "selection_rate": 0.7478311162521689
+      },
+      {
+        "group": "2.0",
+        "n": 1567,
+        "positives": 13,
+        "TPR": 0.0,
+        "selection_rate": 0.0006381620931716656
+      },
+      {
+        "group": "7.0",
+        "n": 5238,
+        "positives": 306,
+        "TPR": 0.565359477124183,
+        "selection_rate": 0.1410843833524246
+      },
+      {
+        "group": "4.0",
+        "n": 2811,
+        "positives": 39,
+        "TPR": 0.1282051282051282,
+        "selection_rate": 0.02063322660974742
+      },
+      {
+        "group": "5.0",
+        "n": 3214,
+        "positives": 63,
+        "TPR": 0.31746031746031744,
+        "selection_rate": 0.04262601120099564
+      },
+      {
+        "group": "3.0",
+        "n": 2228,
+        "positives": 23,
+        "TPR": 0.2608695652173913,
+        "selection_rate": 0.008527827648114902
+      }
+    ]
+  },
+  "BRFSS2015_income_fairness": {
+    "gap": 0.22833983866770746,
+    "groups": [
+      {
+        "group": "8.0",
+        "n": 18086,
+        "positives": 900,
+        "TPR": 0.6522222222222223,
+        "selection_rate": 0.14099303328541413
+      },
+      {
+        "group": "6.0",
+        "n": 7294,
+        "positives": 742,
+        "TPR": 0.7911051212938005,
+        "selection_rate": 0.3227310117905127
+      },
+      {
+        "group": "7.0",
+        "n": 8648,
+        "positives": 697,
+        "TPR": 0.7159253945480631,
+        "selection_rate": 0.23219241443108232
+      },
+      {
+        "group": "3.0",
+        "n": 3239,
+        "positives": 493,
+        "TPR": 0.8559837728194726,
+        "selection_rate": 0.49706699598641557
+      },
+      {
+        "group": "4.0",
+        "n": 4094,
+        "positives": 578,
+        "TPR": 0.8339100346020761,
+        "selection_rate": 0.44553004396678064
+      },
+      {
+        "group": "5.0",
+        "n": 5096,
+        "positives": 630,
+        "TPR": 0.8142857142857143,
+        "selection_rate": 0.3728414442700157
+      },
+      {
+        "group": "2.0",
+        "n": 2295,
+        "positives": 427,
+        "TPR": 0.8805620608899297,
+        "selection_rate": 0.5808278867102397
+      },
+      {
+        "group": "1.0",
+        "n": 1984,
+        "positives": 312,
+        "TPR": 0.875,
+        "selection_rate": 0.5211693548387096
+      }
+    ]
+  },
+  "BRFSS2015_sex_age_intersection": {
+    "gap": 0.6560415122312825,
+    "groups": [
+      {
+        "group": "1.0|11.0",
+        "n": 2078,
+        "positives": 458,
+        "TPR": 0.9279475982532751,
+        "selection_rate": 0.7333974975938402
+      },
+      {
+        "group": "0.0|11.0",
+        "n": 2572,
+        "positives": 302,
+        "TPR": 0.7748344370860927,
+        "selection_rate": 0.4031881804043546
+      },
+      {
+        "group": "0.0|6.0",
+        "n": 2196,
+        "positives": 77,
+        "TPR": 0.44155844155844154,
+        "selection_rate": 0.0651183970856102
+      },
+      {
+        "group": "0.0|12.0",
+        "n": 1899,
+        "positives": 275,
+        "TPR": 0.7963636363636364,
+        "selection_rate": 0.5102685624012638
+      },
+      {
+        "group": "1.0|9.0",
+        "n": 3017,
+        "positives": 411,
+        "TPR": 0.7931873479318735,
+        "selection_rate": 0.4259197878687438
+      },
+      {
+        "group": "1.0|10.0",
+        "n": 2914,
+        "positives": 547,
+        "TPR": 0.8482632541133455,
+        "selection_rate": 0.6019217570350034
+      },
+      {
+        "group": "0.0|9.0",
+        "n": 3589,
+        "positives": 248,
+        "TPR": 0.6854838709677419,
+        "selection_rate": 0.21036500417943718
+      },
+      {
+        "group": "0.0|8.0",
+        "n": 3557,
+        "positives": 203,
+        "TPR": 0.6600985221674877,
+        "selection_rate": 0.15237559741355075
+      },
+      {
+        "group": "0.0|10.0",
+        "n": 3485,
+        "positives": 306,
+        "TPR": 0.738562091503268,
+        "selection_rate": 0.296987087517934
+      },
+      {
+        "group": "0.0|13.0",
+        "n": 2081,
+        "positives": 414,
+        "TPR": 0.8454106280193237,
+        "selection_rate": 0.6367131186929361
+      },
+      {
+        "group": "1.0|7.0",
+        "n": 2290,
+        "positives": 166,
+        "TPR": 0.608433734939759,
+        "selection_rate": 0.1759825327510917
+      },
+      {
+        "group": "0.0|7.0",
+        "n": 2948,
+        "positives": 140,
+        "TPR": 0.5142857142857142,
+        "selection_rate": 0.11397557666214382
+      },
+      {
+        "group": "1.0|12.0",
+        "n": 1257,
+        "positives": 333,
+        "TPR": 0.9579579579579579,
+        "selection_rate": 0.847255369928401
+      },
+      {
+        "group": "1.0|13.0",
+        "n": 1377,
+        "positives": 426,
+        "TPR": 0.971830985915493,
+        "selection_rate": 0.915758896151053
+      },
+      {
+        "group": "1.0|6.0",
+        "n": 1828,
+        "positives": 78,
+        "TPR": 0.48717948717948717,
+        "selection_rate": 0.09846827133479212
+      },
+      {
+        "group": "0.0|5.0",
+        "n": 1843,
+        "positives": 38,
+        "TPR": 0.3157894736842105,
+        "selection_rate": 0.03906673901247965
+      },
+      {
+        "group": "1.0|8.0",
+        "n": 2705,
+        "positives": 250,
+        "TPR": 0.724,
+        "selection_rate": 0.28909426987061
+      }
+    ]
+  },
+  "BRFSS2015_equal_opportunity_mitigation": {
+    "female_threshold": 0.05302095416216619,
+    "male_threshold": 0.12,
+    "female_test_TPR": 0.8352023403217943,
+    "male_test_TPR": 0.8354105571847508,
+    "test_TPR_gap": 0.00020821686295646735,
+    "overall": {
+      "Sensitivity": 0.8353211969031178,
+      "Specificity": 0.7105772787605805,
+      "FPR": 0.2894227212394195,
+      "PPV": 0.23084485051755047,
+      "NPV": 0.9764674221810244,
+      "SelectionRate": 0.3408427940712709,
+      "BalancedAccuracy": 0.7729492378318492
+    },
+    "net_benefit": 0.04293257790774346
+  },
+  "BRFSS2020_naive_transport_sex_fairness": {
+    "groups": {
+      "0": {
+        "Sensitivity": 0.3796510592843155,
+        "Specificity": 0.9371020176150118,
+        "FPR": 0.06289798238498828,
+        "PPV": 0.30220364203216893,
+        "NPV": 0.9546560653775082,
+        "SelectionRate": 0.08410357259914782,
+        "Brier": 0.05652802681193733,
+        "ECE": 0.029246573890682904
+      },
+      "1": {
+        "Sensitivity": 0.619121382985315,
+        "Specificity": 0.8388381388432915,
+        "FPR": 0.16116186115670844,
+        "PPV": 0.31336636768487736,
+        "NPV": 0.94881935655765,
+        "SelectionRate": 0.20979011777090598,
+        "Brier": 0.08166448827288002,
+        "ECE": 0.03735877938533409
+      }
+    },
+    "TPR_gap": 0.23947032370099958
+  },
+  "BRFSS2020_naive_transport_age_fairness": {
+    "gap": 0.7487612405946045,
+    "groups": [
+      {
+        "group": "8",
+        "n": 29757,
+        "positives": 2202,
+        "TPR": 0.26975476839237056,
+        "selection_rate": 0.060994051819739895
+      },
+      {
+        "group": "13",
+        "n": 24153,
+        "positives": 5449,
+        "TPR": 0.7487612405946045,
+        "selection_rate": 0.5309899391379953
+      },
+      {
+        "group": "10",
+        "n": 34151,
+        "positives": 4101,
+        "TPR": 0.4864667154352597,
+        "selection_rate": 0.2053234165910222
+      },
+      {
+        "group": "12",
+        "n": 21482,
+        "positives": 4049,
+        "TPR": 0.6962212892072116,
+        "selection_rate": 0.42793967042174846
+      },
+      {
+        "group": "5",
+        "n": 21006,
+        "positives": 486,
+        "TPR": 0.07818930041152264,
+        "selection_rate": 0.005379415405122346
+      },
+      {
+        "group": "11",
+        "n": 31065,
+        "positives": 4847,
+        "TPR": 0.6082112646998143,
+        "selection_rate": 0.3070658297118944
+      },
+      {
+        "group": "9",
+        "n": 33686,
+        "positives": 3327,
+        "TPR": 0.40276525398256685,
+        "selection_rate": 0.12845098854123374
+      },
+      {
+        "group": "7",
+        "n": 25382,
+        "positives": 1383,
+        "TPR": 0.21475054229934923,
+        "selection_rate": 0.031636592861082655
+      },
+      {
+        "group": "6",
+        "n": 21791,
+        "positives": 744,
+        "TPR": 0.17069892473118278,
+        "selection_rate": 0.013904823092102244
+      },
+      {
+        "group": "1",
+        "n": 21064,
+        "positives": 130,
+        "TPR": 0.0,
+        "selection_rate": 0.0
+      },
+      {
+        "group": "4",
+        "n": 20550,
+        "positives": 296,
+        "TPR": 0.04391891891891892,
+        "selection_rate": 0.0025790754257907543
+      },
+      {
+        "group": "3",
+        "n": 18753,
+        "positives": 226,
+        "TPR": 0.02654867256637168,
+        "selection_rate": 0.0006398976163813789
+      },
+      {
+        "group": "2",
+        "n": 16955,
+        "positives": 133,
+        "TPR": 0.0,
+        "selection_rate": 0.00023591860808021232
+      }
+    ]
+  },
+  "BRFSS2020_naive_transport_race_fairness": {
+    "gap": 0.11671691560990455,
+    "groups": [
+      {
+        "group": "White",
+        "n": 245212,
+        "positives": 22507,
+        "TPR": 0.5294352867996623,
+        "selection_rate": 0.15248845896611912
+      },
+      {
+        "group": "Black",
+        "n": 22939,
+        "positives": 1729,
+        "TPR": 0.5193753614806247,
+        "selection_rate": 0.15336326779720127
+      },
+      {
+        "group": "Asian",
+        "n": 8068,
+        "positives": 266,
+        "TPR": 0.424812030075188,
+        "selection_rate": 0.06308874566187407
+      },
+      {
+        "group": "American Indian/Alaskan Native",
+        "n": 5202,
+        "positives": 542,
+        "TPR": 0.533210332103321,
+        "selection_rate": 0.15590157631680124
+      },
+      {
+        "group": "Other",
+        "n": 10928,
+        "positives": 886,
+        "TPR": 0.4966139954853273,
+        "selection_rate": 0.12939238653001464
+      },
+      {
+        "group": "Hispanic",
+        "n": 27446,
+        "positives": 1443,
+        "TPR": 0.4164934164934165,
+        "selection_rate": 0.0858048531662173
+      }
+    ]
+  },
+  "BRFSS2020_sex_fairness": {
+    "groups": {
+      "0": {
+        "Sensitivity": 0.634809294169224,
+        "Specificity": 0.8410284323770492,
+        "FPR": 0.1589715676229508,
+        "PPV": 0.22579136129736474,
+        "NPV": 0.9692619926199262,
+        "SelectionRate": 0.19135857726852265,
+        "Brier": 0.05502631153710315,
+        "ECE": 0.00953104396549163
+      },
+      "1": {
+        "Sensitivity": 0.8080776455854728,
+        "Specificity": 0.7164244826067812,
+        "FPR": 0.28357551739321885,
+        "PPV": 0.2503637598215152,
+        "NPV": 0.9695585241098476,
+        "SelectionRate": 0.338599487617421,
+        "Brier": 0.07830603914310713,
+        "ECE": 0.014103985973132716
+      }
+    },
+    "TPR_gap": 0.17326835141624874
+  },
+  "BRFSS2020_age_fairness": {
+    "gap": 0.8680659173049505,
+    "groups": [
+      {
+        "group": "6",
+        "n": 4407,
+        "positives": 136,
+        "TPR": 0.38235294117647056,
+        "selection_rate": 0.057862491490810075
+      },
+      {
+        "group": "4",
+        "n": 4053,
+        "positives": 64,
+        "TPR": 0.109375,
+        "selection_rate": 0.01307673328398717
+      },
+      {
+        "group": "11",
+        "n": 6207,
+        "positives": 949,
+        "TPR": 0.8282402528977871,
+        "selection_rate": 0.5369743837602706
+      },
+      {
+        "group": "10",
+        "n": 6883,
+        "positives": 818,
+        "TPR": 0.7444987775061125,
+        "selection_rate": 0.3964840912392852
+      },
+      {
+        "group": "13",
+        "n": 4889,
+        "positives": 1117,
+        "TPR": 0.9051029543419875,
+        "selection_rate": 0.7475966455307834
+      },
+      {
+        "group": "9",
+        "n": 6685,
+        "positives": 669,
+        "TPR": 0.6771300448430493,
+        "selection_rate": 0.30665669409124907
+      },
+      {
+        "group": "8",
+        "n": 6012,
+        "positives": 446,
+        "TPR": 0.5515695067264574,
+        "selection_rate": 0.2025948103792415
+      },
+      {
+        "group": "7",
+        "n": 5055,
+        "positives": 293,
+        "TPR": 0.4539249146757679,
+        "selection_rate": 0.11928783382789318
+      },
+      {
+        "group": "2",
+        "n": 3384,
+        "positives": 27,
+        "TPR": 0.037037037037037035,
+        "selection_rate": 0.0026595744680851063
+      },
+      {
+        "group": "12",
+        "n": 4237,
+        "positives": 786,
+        "TPR": 0.8893129770992366,
+        "selection_rate": 0.631578947368421
+      },
+      {
+        "group": "1",
+        "n": 4294,
+        "positives": 24,
+        "TPR": 0.041666666666666664,
+        "selection_rate": 0.0013972985561248254
+      },
+      {
+        "group": "5",
+        "n": 4113,
+        "positives": 100,
+        "TPR": 0.25,
+        "selection_rate": 0.028446389496717725
+      },
+      {
+        "group": "3",
+        "n": 3740,
+        "positives": 46,
+        "TPR": 0.13043478260869565,
+        "selection_rate": 0.004812834224598931
+      }
+    ]
+  },
+  "BRFSS2020_race_fairness": {
+    "gap": 0.2003703879953047,
+    "groups": [
+      {
+        "group": "White",
+        "n": 49015,
+        "positives": 4503,
+        "TPR": 0.7539418165667333,
+        "selection_rate": 0.28634091604610834
+      },
+      {
+        "group": "Black",
+        "n": 4596,
+        "positives": 334,
+        "TPR": 0.7125748502994012,
+        "selection_rate": 0.22106179286335945
+      },
+      {
+        "group": "Hispanic",
+        "n": 5452,
+        "positives": 280,
+        "TPR": 0.5535714285714286,
+        "selection_rate": 0.13664710198092442
+      },
+      {
+        "group": "Other",
+        "n": 2234,
+        "positives": 184,
+        "TPR": 0.6684782608695652,
+        "selection_rate": 0.2144136078782453
+      },
+      {
+        "group": "Asian",
+        "n": 1607,
+        "positives": 59,
+        "TPR": 0.559322033898305,
+        "selection_rate": 0.08151835718730553
+      },
+      {
+        "group": "American Indian/Alaskan Native",
+        "n": 1055,
+        "positives": 115,
+        "TPR": 0.7391304347826086,
+        "selection_rate": 0.2995260663507109
+      }
+    ]
+  },
+  "Cardio_gender_fairness": {
+    "groups": {
+      "Female": {
+        "Sensitivity": 0.6774931381518756,
+        "Specificity": 0.7877995642701525,
+        "FPR": 0.21220043572984748,
+        "PPV": 0.7525406504065041,
+        "NPV": 0.7194588141663351,
+        "SelectionRate": 0.43918768132113367,
+        "Brier": 0.18010540738545522,
+        "ECE": 0.032509278774630716
+      },
+      "Male": {
+        "Sensitivity": 0.697119341563786,
+        "Specificity": 0.7867459643160578,
+        "FPR": 0.21325403568394222,
+        "PPV": 0.7714025500910747,
+        "NPV": 0.7156105100463679,
+        "SelectionRate": 0.4590301003344482,
+        "Brier": 0.17883693656092492,
+        "ECE": 0.024127436546834715
+      }
+    },
+    "TPR_gap": 0.019626203411910348
+  },
+  "Cardio_age_fairness": {
+    "gap": 0.21187570886620521,
+    "groups": [
+      {
+        "group": "3.0",
+        "n": 5597,
+        "positives": 2474,
+        "TPR": 0.5921584478577203,
+        "selection_rate": 0.3362515633375022
+      },
+      {
+        "group": "2.0",
+        "n": 2005,
+        "positives": 540,
+        "TPR": 0.5518518518518518,
+        "selection_rate": 0.19052369077306733
+      },
+      {
+        "group": "4.0",
+        "n": 6143,
+        "positives": 3788,
+        "TPR": 0.763727560718057,
+        "selection_rate": 0.6296597753540615
+      }
+    ]
+  },
+  "provenance": {
+    "BRFSS2015": {
+      "file": "heart_disease_health_indicators_BRFSS2015.csv",
+      "md5": "1044a4d01830fd9df016eb0d68f627b1",
+      "sha256": "953fb23bb131736d7879539a071d3f6d1eaae8d4867ab05335d0ba89b94d5f99"
+    },
+    "BRFSS2020": {
+      "file": "heart_2020_cleaned.csv",
+      "md5": "f5a885ff39a113e797af67367b6bc2cf",
+      "sha256": "eb1bfd667d199d19380119491d41d3f30b9868a8b1fa7c5bed12c3f048de5d49"
+    },
+    "Cardio": {
+      "file": "cardio_train.csv",
+      "md5": "71c46a70f7ba9e3e4736ae73ecd5bac9",
+      "sha256": "21a705d23381b0dfd6a6416da701b490744f1fc3b47e9ff3db3968c420ffa10c"
+    }
+  },
+  "encoded_2020_design_columns": 22,
+  "BRFSS2015_AUC_CI95": [
+    0.8447,
+    0.8549
+  ],
+  "BRFSS2015_sex_gap_CI95": [
+    0.0996,
+    0.1487
+  ],
+  "BRFSS2015_sex_age_gap_CI95": [
+    0.5429,
+    0.9059
+  ],
+  "BRFSS2020_race_ablation": {
+    "with_race_gap": 0.2003703879953047,
+    "without_race_gap": 0.16475155279503106,
+    "difference": 0.035618835200273646,
+    "difference_CI95": [
+      -0.017317320626634956,
+      0.11112397361575262
+    ]
+  },
+  "threshold_sensitivity": {
+    "thresholds": [
+      0.05,
+      0.060000000000000005,
+      0.07,
+      0.08,
+      0.09,
+      0.1,
+      0.11,
+      0.12000000000000001,
+      0.13,
+      0.14,
+      0.15000000000000002,
+      0.16,
+      0.16999999999999998,
+      0.18,
+      0.19,
+      0.2,
+      0.21000000000000002,
+      0.22000000000000003,
+      0.22999999999999998,
+      0.24,
+      0.25,
+      0.26,
+      0.27,
+      0.28,
+      0.29,
+      0.3
+    ],
+    "sex_gap": [
+      0.06705905566414205,
+      0.08142262339664075,
+      0.08370728962769036,
+      0.09501730791502894,
+      0.10255136254255492,
+      0.11703235386214583,
+      0.12017830512545913,
+      0.12356267810137678,
+      0.131947294145907,
+      0.14228932742914913,
+      0.14969523485432323,
+      0.15916883402846183,
+      0.16303362496800788,
+      0.16970639456327008,
+      0.17357833457965577,
+      0.17867455400484133,
+      0.1858420397174113,
+      0.19177452240592174,
+      0.18758194629327518,
+      0.18204051810789668,
+      0.17576952663102613,
+      0.17582618306498082,
+      0.18467691891945998,
+      0.1915773866120668,
+      0.19029948912696898,
+      0.18619574029405578
+    ],
+    "sex_gap_range": [
+      0.06705905566414205,
+      0.19177452240592174
+    ],
+    "naive_loss_range": [
+      0.1889315283096238,
+      0.3083561301232597
+    ],
+    "shared_loss_range": [
+      0.01081891882179431,
+      0.025593207878692237
+    ]
+  }
+}
