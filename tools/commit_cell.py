@@ -41,7 +41,8 @@ def main():
     msg, paths = sys.argv[1], sys.argv[2:]
     os.chdir(REPO)
 
-    cred = glob.glob("/content/drive/MyDrive/*/.git-credentials")
+    own = os.path.join(os.path.dirname(REPO), ".git-credentials")
+    cred = [own] if os.path.exists(own) else sorted(glob.glob("/content/drive/MyDrive/*/.git-credentials"))
     if cred:
         shutil.copy(cred[0], "/root/.git-credentials")
     run(["git", "config", "--global", "credential.helper", "store"])
