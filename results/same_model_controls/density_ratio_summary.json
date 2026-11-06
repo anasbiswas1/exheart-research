@@ -1,0 +1,15 @@
+{
+  "domain_auc_cross_fitted": 0.6107342206988986,
+  "weight_cap_quantile_0_999": 6.990585049938819,
+  "n_weights_capped": 51,
+  "ess_all_2015_test": 37268.20605670218,
+  "n_2015_test": 50736,
+  "ess_positives_2015_test": 4064.9211501697205,
+  "n_positives_2015_test": 4779,
+  "max_abs_smd_before": 0.15036350015193647,
+  "max_abs_smd_after": 0.020082837325554114,
+  "prevalence_2015_test": 0.09419347209082309,
+  "prevalence_2015_test_reweighted": 0.08731609899606194,
+  "prevalence_2020": 0.08559545959130067,
+  "balance_ok": true
+}

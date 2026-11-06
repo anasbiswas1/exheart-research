@@ -1,0 +1,27 @@
+{
+  "naive": {
+    "leaky": {
+      "base_2015": 0.777,
+      "trans_2020": 0.266
+    },
+    "honest": {
+      "base_2015": 0.785,
+      "trans_2020": 0.278
+    },
+    "AUC_2020_transport": 0.78
+  },
+  "harmonised": {
+    "leaky": {
+      "base_2015": 0.63,
+      "trans_2020": 0.606
+    },
+    "honest": {
+      "base_2015": 0.644,
+      "trans_2020": 0.62
+    },
+    "AUC_2015": 0.838,
+    "AUC_2020_transport": 0.84
+  },
+  "threshold": 0.12,
+  "calibration": "out-of-fold cross-fitting"
+}

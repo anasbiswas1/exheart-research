@@ -1,0 +1,23 @@
+{
+  "labels_2015_identical": true,
+  "sex_2015_identical": true,
+  "labels_2020_identical": true,
+  "max_abs_prob_diff_2015": 1.2061323956258363e-07,
+  "max_abs_prob_diff_2020": 9.46857394157341e-08,
+  "sensitivity_2015_committed": 0.782381251307805,
+  "sensitivity_2015_reproduced": 0.782381251307805,
+  "sensitivity_2020_committed": 0.5208417053300698,
+  "sensitivity_2020_reproduced": 0.5208417053300698,
+  "tolerance_probability": 0.0001,
+  "tolerance_sensitivity": 0.0005,
+  "versions": {
+    "python": "3.13.18",
+    "numpy": "2.4.6",
+    "pandas": "2.2.3",
+    "sklearn": "1.6.1",
+    "xgboost": "3.4.1",
+    "lightgbm": "4.6.0",
+    "tensorflow": "2.21.0"
+  },
+  "passed": true
+}
