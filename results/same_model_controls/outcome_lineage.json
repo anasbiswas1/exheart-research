@@ -1,4 +1,26 @@
 {
-  "status": "failed",
-  "error": "<HTTPError 403: 'Forbidden'>"
+  "status": "completed",
+  "2015": {
+    "zip_sha256": "38bfd48c64b99328c67feac36cedfff6f2991d49e89c4ffd549083cb626764f0",
+    "raw_rows": 441456,
+    "sex_variable": "SEX",
+    "source_url": "https://www.cdc.gov/brfss/annual_data/2015/files/LLCP2015XPT.zip",
+    "michd_equals_mi_or_chd": 1.0,
+    "closest_construct": "CHD or MI (_MICHD)",
+    "closest_mean_abs_diff": 0.002258169414493486,
+    "next_closest_ratio": 14.58997533777344,
+    "matched": true
+  },
+  "2020": {
+    "zip_sha256": "132269948a09506392c417c4042c052f088c86334ee3bc34c2776501f240b4b6",
+    "raw_rows": 401958,
+    "sex_variable": "_SEX",
+    "source_url": "https://www.cdc.gov/brfss/annual_data/2020/files/LLCP2020XPT.zip",
+    "michd_equals_mi_or_chd": 1.0,
+    "closest_construct": "CHD or MI (_MICHD)",
+    "closest_mean_abs_diff": 0.001325614980410963,
+    "next_closest_ratio": 21.130214933363998,
+    "matched": true
+  },
+  "same_construct_both_years": true
 }

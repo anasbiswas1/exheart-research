@@ -15,8 +15,8 @@
     "prevalence_2020": 0.08559545959130067,
     "balance_ok": true
   },
-  "outcome_lineage_status": "failed",
-  "outcome_same_construct_both_years": null,
+  "outcome_lineage_status": "completed",
+  "outcome_same_construct_both_years": true,
   "deployments": {
     "stack_median": {
       "S0": {
